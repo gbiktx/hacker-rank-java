@@ -38,7 +38,7 @@ public class BinaryTreeSearch {
         inOrder(root, values);
 
         for (int i = 1; i < values.size(); i++) {
-            if (values.get(i) <= values.get(i -1 )) {
+            if (values.get(i) <= values.get(i - 1)) {
                 return false;
             }
         }
